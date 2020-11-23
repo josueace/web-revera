@@ -1,0 +1,263 @@
+/* nav section */
+@media (max-width:600px){
+nav{
+    width:100%;
+    height:10%;
+    background-color:white;
+    padding:20px;
+    
+  
+}
+nav div{
+    display:none;
+}
+nav h1{
+    margin-top:40px;
+    text-align:center;
+}
+nav ul{
+    display:none;
+}
+nav a{
+    display:none;
+}
+
+
+
+
+/* header section */
+
+
+header{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+header .picture{
+    background-color:black;
+    height:auto;
+    width:100%;
+    display:block;
+    filter: grayscale(100%);
+
+
+}
+
+header .titles{
+    background-color:rgb(207, 53, 53);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+    height:auto;
+    text-align: center;
+    color:white;
+}
+
+.circle-div{
+
+  border: 5px solid white;
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  margin:0 auto;
+}
+.icon{
+    vertical-align: middle;
+    line-height:75px;
+  
+}
+header p{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+/* main section */
+
+main div{
+    height:auto;
+    background-color:white;
+}
+
+main .imagy{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-content:space-around;
+    
+}
+main figure{
+    width:50vw;
+}
+
+figure img{
+    width:45vw;
+    height:30vh;
+}
+
+
+
+/* footer section */
+footer{
+    color:grey;
+}
+footer figure{
+    width:50vw;
+}
+footer h4{
+    color:white;
+}
+footer .description{
+    display:flex;
+    flex-wrap:wrap;
+    height:auto;
+    background-color:rgb(65, 62, 62);
+}
+footer li{
+    border-bottom: 1px solid lightgray;
+}
+footer .end{
+    background-color:black;
+    height:auto;
+}
+}
+
+
+
+
+
+
+
+
+@media (min-width:600px){
+    nav{
+        width:100%;
+        height:auto;
+        background-color:white;
+        padding:20px;
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        border-bottom:1px solid grey;
+        
+      
+    }
+    nav h1{
+        margin-top:40px;
+        text-align:center;
+    }
+    nav select{
+        display:none;
+    }
+    
+    nav li{
+        display:inline;
+        margin-right:5px;
+    }
+    
+    nav a{
+        color:rgb(99, 93, 93);
+    }
+
+    /*  header */
+
+
+    header{
+        display:flex;
+        flex-direction:column;
+        
+    }
+    
+    header .picture{
+        background-color:black;
+        height:auto;
+        width:100%;
+        display:block;
+        filter: grayscale(100%);
+    
+    
+    }
+    
+    header .titles{
+        background-color:rgb(207, 53, 53);
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        
+        height:auto;
+        text-align: center;
+        color:white;
+    }
+    .circle-div{
+
+        border: 5px solid white;
+        border-radius: 50%;
+        height: 75px;
+        width: 75px;
+        margin:0 auto;
+      }
+      .icon{
+          vertical-align: middle;
+          line-height:75px;
+        
+      }
+      header p{
+          margin-left:20px;
+          margin-right:20px;
+      }
+      
+      /* main section */
+      main{
+          display:flex;
+          flex-direction:column;
+      }
+      
+      main div{
+          height:auto;
+          background-color:white;
+      }
+      
+      main .imagy{
+          display:flex;
+          flex-direction:row;
+          justify-content:space-between;
+          flex-wrap: wrap;
+          align-content:space-around;
+          
+      }
+      main figure{
+        width:25vw;
+    }
+    
+    figure img{
+        width:45vw;
+        height:30vh;
+    }
+    /* footer section */
+    
+
+    footer{
+        color:grey;
+    }
+    footer figure{
+        width:25vw;
+    }
+    footer h4{
+        color:white;
+    }
+    footer .description{
+        display:flex;
+        flex-wrap:wrap;
+        height:auto;
+        background-color:rgb(65, 62, 62);
+    }
+    footer li{
+        border-bottom: 1px solid lightgray;
+    }
+    footer .end{
+        background-color:black;
+        height:auto;
+    }
+}
